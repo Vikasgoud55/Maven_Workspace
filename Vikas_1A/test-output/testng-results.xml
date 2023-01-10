@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Test1a executed]]>
+    </line>
+    <line>
+      <![CDATA[Test1 executed]]>
+    </line>
+    <line>
+      <![CDATA[Test2a executed]]>
+    </line>
+    <line>
+      <![CDATA[Test2 executed]]>
+    </line>
+  </reporter-output>
+  <suite name="suite1" duration-ms="95" started-at="2023-01-10T11:09:46 IST" finished-at="2023-01-10T11:09:46 IST">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="95" started-at="2023-01-10T11:09:46 IST" finished-at="2023-01-10T11:09:46 IST">
+      <class name="p1.Class1$class1a">
+        <test-method status="PASS" signature="f()[pri:0, instance:p1.Class1$class1a@2a556333]" name="f" duration-ms="16" started-at="2023-01-10T11:09:46 IST" finished-at="2023-01-10T11:09:46 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Test1a executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- p1.Class1$class1a -->
+      <class name="p2.Class2$class2a">
+        <test-method status="PASS" signature="f()[pri:0, instance:p2.Class2$class2a@2a742aa2]" name="f" duration-ms="0" started-at="2023-01-10T11:09:46 IST" finished-at="2023-01-10T11:09:46 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Test2a executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- p2.Class2$class2a -->
+      <class name="p2.Class2">
+        <test-method status="PASS" signature="f()[pri:0, instance:p2.Class2@7d70d1b1]" name="f" duration-ms="0" started-at="2023-01-10T11:09:46 IST" finished-at="2023-01-10T11:09:46 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Test2 executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- p2.Class2 -->
+      <class name="p1.Class1">
+        <test-method status="PASS" signature="f()[pri:0, instance:p1.Class1@34c4973]" name="f" duration-ms="0" started-at="2023-01-10T11:09:46 IST" finished-at="2023-01-10T11:09:46 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Test1 executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- p1.Class1 -->
+    </test> <!-- test1 -->
+  </suite> <!-- suite1 -->
+</testng-results>

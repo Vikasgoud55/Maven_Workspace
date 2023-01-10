@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="suite1">
+
+<test name="test1" verbose="2">
+<classes>
+
+<class name="p1.Class1"></class>
+<class name="p2.Class2"></class>
+</classes>
+
+
+</test>
+
+</suite>
